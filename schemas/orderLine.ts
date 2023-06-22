@@ -4,10 +4,10 @@ export default {
   title: 'Order Line',
   fields: [
     {
-      name: 'productItem',
+      name: 'product',
       type: 'reference',
-      title: 'Product Item',
-      to: [{type: 'productItem'}],
+      title: 'Product',
+      to: [{type: 'product'}],
     },
     {
       name: 'order',

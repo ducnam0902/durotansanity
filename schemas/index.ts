@@ -8,15 +8,11 @@ import shoppingCart from './shoppingCart'
 import shoppingCartItem from './shoppingCartItem'
 import userPaymentMethod from './userPaymentMethod'
 import orderStatus from './orderStatus'
-import productCategory from './productCategory'
-import productItem from './productItem'
 import shippingMethod from './shippingMethod'
 import orderLine from './orderLine'
 import shopOrder from './shopOrder'
 import userReview from './userReview'
-import size from './size'
-import color from './color'
-import productColor from './productColor'
+
 export const schemaTypes = [
   product,
   address,
@@ -28,13 +24,8 @@ export const schemaTypes = [
   shoppingCartItem,
   userPaymentMethod,
   orderStatus,
-  productCategory,
-  productItem,
   shippingMethod,
   orderLine,
   shopOrder,
   userReview,
-  size,
-  color,
-  productColor,
 ]

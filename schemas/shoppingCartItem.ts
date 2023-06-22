@@ -10,10 +10,10 @@ export default {
       to: [{type: 'shoppingCart'}],
     },
     {
-      title: 'Product Item',
-      name: 'productItem',
+      title: 'product',
+      name: 'product',
       type: 'reference',
-      to: [{type: 'productItem'}],
+      to: [{type: 'product'}],
     },
     {
       title: 'Quantity',
